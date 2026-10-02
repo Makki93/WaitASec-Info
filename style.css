@@ -190,9 +190,7 @@ nav a[aria-current="page"] {
   place-items: center;
   width: 68%;
   aspect-ratio: 1;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  background: var(--surface);
+  border-radius: 28%;
   box-shadow: var(--shadow);
 }
 .orb:before,
@@ -207,15 +205,10 @@ nav a[aria-current="page"] {
   inset: -30%;
   opacity: 0.5;
 }
-.pause {
-  display: flex;
-  gap: 17px;
-}
-.pause span {
-  width: 18px;
-  height: 80px;
-  border-radius: 12px;
-  background: linear-gradient(var(--mint), var(--accent));
+.orb img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .grid {
   display: grid;
